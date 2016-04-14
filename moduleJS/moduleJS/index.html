@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>无标题文档</title>
+<meta name="Author" content="" />
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+
+<link rel="stylesheet" type="text/css" href="style/StyleReset.css" />
+<!-- <link rel="stylesheet" type="text/css" href="style/.css" /> -->
+
+
+<!-- <script type="text/javascript" src="js/jquery1.11.1.min.js"></script>-->
+<script type="text/javascript" src="sea/sea.js"></script>
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5shiv.min.js"> </script>
+<script type="text/javascript" src="js/IE9.js"></script>
+<![endif]-->
+
+<!--[if IE 6]>
+<script type="text/javascript">
+window.onload = function() {
+	alert("由于您的浏览器版本过低，此页面内容将无法正常显示！为了使您正常浏览本页信息，建议您升级浏览器版本或者更换其它浏览器！谢谢！");
+}
+</script>
+<![endif]-->
+
+
+</head>
+
+<body>
+<div id="wrap">
+	<div id = "Header">
+        <div class = "HeaderTopArea">
+        </div><!-- /HeaderTopArea -->
+    </div><!-- /Header -->
+
+    <div id = "MainBody">
+        <nav>
+        </nav><!-- /nav -->
+        <div class = "main">
+        </div><!-- /main -->
+        <div class = "sidebar">
+        </div><!-- /sidebar -->
+    </div><!-- /mainBody -->
+
+    <div id = "Footer">
+    	<div class = "friendLink">
+        </div><!-- /friendLink -->
+        <div class = "partner">
+        </div><!-- /partner -->
+        <div class = "copyright">
+        </div><!-- /copyright -->
+    </div><!-- /Footer -->
+</div><!-- /wrap -->
+
+<script type="text/javascript">
+seajs.use(['./js/module1.js','./js/module2.js'], function(ex1,ex2) {
+
+    ex1.show();
+    ex2.show();
+
+
+})
+
+
+
+</script>
+</body>
+</html>

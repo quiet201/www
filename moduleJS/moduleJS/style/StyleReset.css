@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+/* structural elements 结构元素 */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,
+/* list elements 列表元素 */
+dl, dt, dd, ul, ol, li,
+/* text formatting elements 文本格式元素 */
+pre, 
+/* form elements 表单元素 */
+form, fieldset, legend, button, input, textarea,
+/* table elements 表格元素 */
+th, td,
+/* img elements 图片元素 */
+img { border:medium none; margin: 0; padding: 0; }
+
+
+/** 设置默认字体 **/
+body,button, input, select, textarea { font: 14px '宋体',tahoma, Srial, helvetica, sans-serif; } 
+h1, h2, h3, h4, h5, h6 { font-size: 100%; } 
+em{font-style:normal;} 
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+
+/** 重置列表元素 **/
+ul, ol { list-style: none; } 
+
+/** 重置超链接元素 **/
+a { text-decoration: none;} 
+a:hover { text-decoration: underline; } 
+
+/** 重置图片元素 **/
+img{ border:0px;} 
+
+/** 重置表格元素 **/
+table { border-collapse: collapse; border-spacing: 0; }
+
+/*清除浮动设置*/
+.clearfix:before, 
+.clearfix:after { content:"."; display:block; height:0px; visibility:hidden;}
+.clearfix:after { clear:both;}
+.clearfix { zoom:1;} /*IE<8*/
+
+/*****   公共样式  ******/
+/*浮动公用样式*/
+.fl {float:left;}
+.fr {float:right;}
+
+/*文字超出框显示省略号*/
+.Omit {white-space:nowrap;text-overflow:ellipsis;}
+
+
+
+
+
+
+
+
+
+
+
+
+
